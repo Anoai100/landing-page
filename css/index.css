@@ -71,7 +71,7 @@ body {
 
 .focus {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0;
     padding: 0;
@@ -96,4 +96,120 @@ body {
     flex-shrink: 0;
 }
 
+.container {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
 
+.section {
+    width: 100%;
+    margin: 0;
+}
+
+.section:first-of-type {
+    padding: 0 60px 48px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.item {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+}
+
+.item img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.section:nth-of-type(2) {
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 48px 60px 48px 60px;
+}
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.from {
+    color: #1F2937;
+    font-weight: bold;
+    display: block;
+    text-align: end;
+    padding-right: 40px
+}
+
+.section:last-of-type {
+    background-color: white;
+    padding: 48px 60px 48px 60px;
+    width: 100%;
+    margin: 0;
+}
+
+.inner {
+    background-color: #3883F6;
+    margin: 0 auto;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-most {
+    padding: 0;
+    margin: 0;
+}
+
+.inner-most h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.inner-most p {
+    padding: 0;
+    margin: 0;
+}
+
+.inner .account {
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em
+}
