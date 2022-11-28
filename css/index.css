@@ -98,7 +98,7 @@ body {
 
 .container {
     width: 100%;
-    background-color: white;
+    background-color: #000000;
     margin: 0;
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 .section:last-of-type {
-    background-color: white;
+    background-color: #000000;
     padding: 48px 60px 48px 60px;
     width: 100%;
     margin: 0;
