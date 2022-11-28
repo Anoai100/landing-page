@@ -22,6 +22,7 @@ body {
     padding: 0 60px 48px 60px;
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
     background-color: #1F2937;
 }
 
@@ -30,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    z-index: 99
 }
 
 .logo {
@@ -46,7 +47,6 @@ body {
     column-gap: 16px;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 
@@ -212,4 +212,23 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2em
+}
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+    .focus {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 12px
+    }
+    
+    .intro img {
+        transform: rotate(-90deg);
+        flex-shrink: 1;
+        width: 157px;
+    }
 }
